@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		7C16CEC31F1D447E00B490B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C16CEC21F1D447E00B490B9 /* AppDelegate.swift */; };
-		7C16CEC51F1D447E00B490B9 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C16CEC41F1D447E00B490B9 /* art.scnassets */; };
 		7C16CEC71F1D447E00B490B9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C16CEC61F1D447E00B490B9 /* GameViewController.swift */; };
 		7C16CECA1F1D447E00B490B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C16CEC81F1D447E00B490B9 /* Main.storyboard */; };
 		7C16CECC1F1D447E00B490B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C16CECB1F1D447E00B490B9 /* Assets.xcassets */; };
 		7C16CECF1F1D447E00B490B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C16CECD1F1D447E00B490B9 /* LaunchScreen.storyboard */; };
+		7C16CED71F1D450800B490B9 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C16CED61F1D450800B490B9 /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7C16CEBF1F1D447E00B490B9 /* MarbleMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarbleMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C16CEC21F1D447E00B490B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7C16CEC41F1D447E00B490B9 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		7C16CEC61F1D447E00B490B9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		7C16CEC91F1D447E00B490B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C16CECB1F1D447E00B490B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C16CECE1F1D447E00B490B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C16CED01F1D447E00B490B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C16CED61F1D450800B490B9 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = art.scnassets; path = "../../../../Downloads/3d-ios-game-development-swift-2/11-materials/starter/MarbleMaze/MarbleMaze/art.scnassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +56,8 @@
 		7C16CEC11F1D447E00B490B9 /* MarbleMaze */ = {
 			isa = PBXGroup;
 			children = (
+				7C16CED61F1D450800B490B9 /* art.scnassets */,
 				7C16CEC21F1D447E00B490B9 /* AppDelegate.swift */,
-				7C16CEC41F1D447E00B490B9 /* art.scnassets */,
 				7C16CEC61F1D447E00B490B9 /* GameViewController.swift */,
 				7C16CEC81F1D447E00B490B9 /* Main.storyboard */,
 				7C16CECB1F1D447E00B490B9 /* Assets.xcassets */,
@@ -125,8 +125,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C16CEC51F1D447E00B490B9 /* art.scnassets in Resources */,
 				7C16CECF1F1D447E00B490B9 /* LaunchScreen.storyboard in Resources */,
+				7C16CED71F1D450800B490B9 /* art.scnassets in Resources */,
 				7C16CECC1F1D447E00B490B9 /* Assets.xcassets in Resources */,
 				7C16CECA1F1D447E00B490B9 /* Main.storyboard in Resources */,
 			);
