@@ -320,6 +320,7 @@
 				7C16CED51F1D447E00B490B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
